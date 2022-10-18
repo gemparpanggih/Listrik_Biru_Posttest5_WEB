@@ -1,0 +1,93 @@
+body{
+	margin: auto;
+	font-family: arial;
+}
+
+.bekgron{
+	width: 100%;
+	overflow: hidden;
+	background: #160573;
+}
+
+	.bekgron h2{
+		margin-left: 15px;
+		color: white;
+	}
+
+table{
+	border-collapse: collapse;
+}
+
+table tr th{
+	background: #21addb;
+	color: white;
+	border: 1px solid black;
+}
+
+table tr td{
+	background: #e4e4e4;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+input{
+	background: #171525;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid blue;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.biru{
+	background: #1387ad;
+}
+
+.gambar{
+	width: 100%;
+	height: 430px;
+	margin: auto;
+	background: url(../img/kotabiru.jpg);
+	background-size: 100% 100%;
+}
+
+.footer{
+	width: 100%;
+	background-color: #004d82;
+	text-align: center;
+	font-size: 10pt;
+	color: white; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.edit{
+	background: #1886e4;
+	margin: 5px;
+	padding: 8px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.hapus{
+	background: #d41010;
+	margin: 5px;
+	padding: 8px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.tombol{
+	background: #1886e4;
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+}
