@@ -206,7 +206,7 @@ nav{
 		font-size: 15px;
 	}
 
-	.footer-distributed{
+.footer-distributed{
 		margin: auto;
 		background: #00649e;
 		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -214,7 +214,7 @@ nav{
 		width: 1900px;
 		text-align: left;
 		font: bold 16px sans-serif;
-		padding: 55px 50px;
+		padding: 55px 150px;
 	}
 	
 	.footer-distributed .footer-left,
@@ -224,13 +224,11 @@ nav{
 		vertical-align: top;
 	}
 	
-	/* Footer left */
 	
 	.footer-distributed .footer-left{
 		width: 40%;
 	}
 	
-	/* The company logo */
 	
 	.footer-distributed h3{
 		color:  #ffffff;
@@ -242,7 +240,6 @@ nav{
 		color:  lightseagreen;
 	}
 	
-	/* Footer links */
 	
 	.footer-distributed .footer-links{
 		color:  #ffffff;
@@ -265,7 +262,6 @@ nav{
 		margin: 0;
 	}
 	
-	/* Footer Center */
 	
 	.footer-distributed .footer-center{
 		width: 35%;
@@ -323,8 +319,7 @@ nav{
 	  content: none;
 	}
 	
-	/* Footer Right */
-	
+
 	.footer-distributed .footer-right{
 		width: 20%;
 	}
@@ -365,28 +360,4 @@ nav{
 		margin-right: 3px;
 		margin-bottom: 5px;
 	}
-	
-	/* If you don't want the footer to be responsive, remove these media queries */
-	
-	@media (max-width: 880px) {
-	
-		.footer-distributed{
-			font: bold 14px sans-serif;
-		}
-	
-		.footer-distributed .footer-left,
-		.footer-distributed .footer-center,
-		.footer-distributed .footer-right{
-			display: block;
-			width: 100%;
-			margin-bottom: 40px;
-			text-align: center;
-		}
-	
-		.footer-distributed .footer-center i{
-			margin-left: 0;
-		}
-	
-	}
-	
 
