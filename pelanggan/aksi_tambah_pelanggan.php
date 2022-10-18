@@ -8,6 +8,7 @@
 	$namapelanggan=$_POST['namapelanggan'];
 	$alamat=$_POST['alamat'];
 	$idtarif=$_POST['idtarif'];
+
 	$sql = "INSERT INTO pelanggan(idpelanggan,username,password,nomorkwh,namapelanggan,alamat,idtarif)
 	VALUES('$idpelanggan','$username','$password','$nomorkwh','$namapelanggan','$alamat','$idtarif')";
 
@@ -18,7 +19,6 @@
 	}
 	else
 	{
-		//echo $sql;
 		echo "Gagal Disimpan";
 	}
 ?>

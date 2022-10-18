@@ -117,7 +117,7 @@
 		</center>
 	</form>
 	<div class="footer">
-		Copyright By Gempar Panggih Dwi Putra &copy; 2020. All right reserved.
+		Copyright By Gempar Panggih Dwi Putra &copy; 2022. All right reserved.
 	</div>
 </body>
 </html>

@@ -131,10 +131,10 @@
 				<td>
 					<select name="idtarif" class="select">
 						<?php
-						$kodetarif = mysqli_query($db_link, "select * from tarif");
-						while ($p = mysqli_fetch_array($kodetarif)){
-						echo "<option value='$p[idtarif]'>($p[idtarif])</option>";
-						}
+							$kodetarif = mysqli_query($db_link, "select * from tarif");
+							while ($p = mysqli_fetch_array($kodetarif)){
+								echo "<option value='$p[idtarif]'>($p[idtarif])</option>";
+							}
 						?>
 					</select>
 				</td>
@@ -149,8 +149,9 @@
 		</table>
 		</center>
 	</form>
+
 	<div class="footer">
-		Copyright By Gempar Panggih Dwi Putra &copy; 2020. All right reserved.
+		Copyright By Gempar Panggih Dwi Putra &copy; 2022. All right reserved.
 	</div>
 </body>
 </html>
