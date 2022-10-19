@@ -102,35 +102,35 @@
 						<td>:</td>
 						<td><input type="text" name="nomorkwh" id="nomorkwh"></td>		
 					</tr>
-						<tr>
-							<td>NAMA PELANGGAN</td>
-							<td>:</td>
-							<td><input type="text" name="namapelanggan" id="namapelanggan"></td>
-						</tr>
-							<tr>
-								<td>ALAMAT</td>
-								<td>:</td>
-								<td><input type="text" name="alamat" id="alamat"></td>
-							</tr>
-								 <tr>
-								       <td>ID TARIF</td>
-								            <td>:</td>
-								            <td>
-									            <select name="idtarif" class="select">
-									            <?php
-									            $kodetarif = mysqli_query($db_link, "select * from tarif");
-									            while ($p = mysqli_fetch_array($kodetarif)){
-									                echo "<option value='$p[idtarif]'>($p[idtarif])</option>";
-									            }
-									            ?>
-									            </select>
-								       		</td>
-								</tr>
-												<tr>
-													<td></td>
-													<td></td>
-													<td><input class="pointer" type="submit" value="Simpan"></td>
-												</tr>
+					<tr>
+						<td>NAMA PELANGGAN</td>
+						<td>:</td>
+						<td><input type="text" name="namapelanggan" id="namapelanggan"></td>
+					</tr>
+					<tr>
+						<td>ALAMAT</td>
+						<td>:</td>
+						<td><input type="text" name="alamat" id="alamat"></td>
+					</tr>
+					<tr>
+						<td>ID TARIF</td>
+						<td>:</td>
+						<td>
+							<select name="idtarif" class="select">
+							<?php
+								$kodetarif = mysqli_query($db_link, "select * from tarif");
+								while ($p = mysqli_fetch_array($kodetarif)){
+									echo "<option value='$p[idtarif]'>($p[idtarif])</option>";
+								}
+							?>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td><input class="pointer" type="submit" value="Simpan"></td>
+					</tr>
 			</center>
 			</table>
 		</form>
